@@ -1,0 +1,49 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: green;
+  height: 5rem;
+}
+.nav-btn {
+  margin: 2rem;
+}
+
+aside {
+  position: fixed;
+  width: 10rem;
+  left: 0;
+  bottom: 0;
+  top: 5rem;
+  background-color: orange;
+  transition: all 0.5s;
+  transform: translateX(-10rem);
+}
+
+.open {
+  transition: all 0.5s;
+  transform: translateX(0);
+}
+
+.modal-btn {
+  margin: auto;
+  margin-top: 30rem;
+  margin-left: 20rem;
+}
+
+.modal {
+  width: 20rem;
+  height: 10rem;
+  background-color: red;
+  position: fixed;
+  top: 10rem;
+  left: 40%;
+  transform: translateY(-50rem);
+  transition: all 0.5s;
+}
+
+.openModal {
+  transition: all 0.5s;
+  transform: translateY(0);
+}

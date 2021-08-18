@@ -122,6 +122,8 @@ let s = "23.54";
 console.log(parseInt(s)); // 23 int
 console.log(parseFloat(s)); // 23.54 float
 
+console.log(+s); // num: 12.32   , unary operator
+
 //-------------------------------------------------------------------------
 
 /*  undefine, NaN, null

@@ -1,3 +1,4 @@
 
 4.38 - outer while, inner
 6.20,21,22,23 - bind, call, apply
+8.17 - reduce
