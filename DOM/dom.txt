@@ -1,0 +1,26 @@
+# DOM 
+    - Document Object Model (dom)
+
+    document - root dom node
+    window - active browser window
+
+
+# query element
+    querySelector(),
+    getElementById(),
+    getElementByClass(),
+
+    querySelectorAll(),
+    getElementByTagName()
+
+
+# Traversing the dom
+
+    parentNode, parentElement, closest
+    ^
+    |
+     current ->   previousSibling, previousElementSibling, nextSibling, nextElementSibling
+     |
+     |-> childNodes, children
+                - firstChild, firstElementchild
+                - lastchild, lastElementChild

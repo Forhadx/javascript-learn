@@ -1,0 +1,5 @@
+const p1 = {name: 'max'}
+const p2 = {name: 'max'}
+
+console.log(p1 === p2)  // false, because they locate in diff memeory
+                        // same as array

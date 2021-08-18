@@ -1,0 +1,62 @@
+# import script in html 
+    -> p-1:
+               <head>
+                </head>
+                <body>
+                    <h1>hell</h1>
+                    <script src="script.js"></script>
+                </body>
+            
+            // parse all code(h1) thn run script.js
+    
+    -> p-2
+            <head>
+                <script src="script.js" defer> </script>
+            </head>
+            <body>
+                <h1>hell</h1>
+            </body>
+
+            // download script but not run
+            // first run code then run script.js
+
+
+    -> p-3
+            <head>
+                <script src="script.js" async> </script>
+            </head>
+            <body>
+                <h1>hell</h1>
+            </body>
+
+            //  download script.js thn parse the html code
+            // but async doesn't wait for html, its run the script asss soon as possible
+
+
+    *** defer is safe to use
+
+    
+
+# alert()
+
+    => alert() displayed first then h1 tage display
+        <head>
+            <script src="script.js">
+            alert("hellow bro");
+            </script>
+        </head>
+        <body>
+            <h1>hell</h1>
+        </body>
+        </html>
+
+    => h1 displayed first then alert() tage display
+        <head>
+        </head>
+        <body>
+            <h1>hell</h1>
+             <script src="script.js">
+            alert("hellow bro");
+            </script>
+        </body>
+        </html>
