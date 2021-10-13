@@ -33,7 +33,7 @@
             // but async doesn't wait for html, its run the script asss soon as possible
 
 
-    *** defer is safe to use
+    note: defer is safe to use
 
     
 

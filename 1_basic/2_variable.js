@@ -7,21 +7,21 @@ console.log(x); // 5
 let y = 2;
 console.log(y); // 2
 
-//---------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 // var
 for (var i = 0; i < 5; i++) {
-  console.log("Inside the loop:", i); // run
+    console.log("Inside the loop:", i); // run
 }
-
-//let
 console.log("Outside the loop:", i); // run
-for (let j = 0; j < 5; j++) {
-  console.log("Inside the loop:", j); // run
-}
 
+console.log("--------------------------------------------------------------");
+//let
+for (let j = 0; j < 5; j++) {
+    console.log("Inside the loop:", j); // run
+}
 //console.log("Outside the loop:", j); // not running: j is not defined
 
-//--------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 //var
 var counter = 10;
 var counter;

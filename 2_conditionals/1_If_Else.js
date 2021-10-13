@@ -32,7 +32,7 @@ else console.log("a is not 2");
 /* if else if   */
 if (a === 5) console.log("a is 2");
 else if (b === 3) {
-  console.log("b is 3");
+    console.log("b is 3");
 } // b is 3
 else console.log("a is not 2");
 
@@ -43,19 +43,20 @@ console.log(x); // yes
 
 let y = a === 2 ? (b === 3 ? "b is 3" : "b is not 3") : "a is not 2";
 console.log(y); // b is 3
+console.log("--------------------------------------------------------------");
 
 /* switch case*/
 let text;
 num = 2;
 switch (num) {
-  case 1:
-    text = "one";
-    break;
-  case 2:
-    text = "two";
-    break;
-  default:
-    text = "no value found";
+    case 1:
+        text = "one";
+        break;
+    case 2:
+        text = "two";
+        break;
+    default:
+        text = "no value found";
 }
 
 console.log("text: ", text); // text:  two

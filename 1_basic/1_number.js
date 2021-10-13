@@ -35,7 +35,7 @@
 f = "he";
 console.log(f); // he
 
-//-------------------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 
 /* 
     operator
@@ -62,7 +62,7 @@ console.log(3 - "3"); // 0 minus
 console.log(3 * "3"); // 9 multiple
 console.log(3 / "3"); // 1 division
 
-//-------------------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 
 /* Data Types
         - number:    2, 3.4 
@@ -83,7 +83,7 @@ console.log("hello\tbrother"); // hello	brother
 
 let a = 12.2345234;
 console.log(a.toFixed(3)); //12.235
-//-------------------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 
 /*  data Typeof  */
 let name = "max";
@@ -106,7 +106,7 @@ console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 console.log(typeof NaN); //number
 
-//-------------------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 
 /*
     convert Data type
@@ -124,7 +124,7 @@ console.log(parseFloat(s)); // 23.54 float
 
 console.log(+s); // num: 12.32   , unary operator
 
-//-------------------------------------------------------------------------
+console.log("--------------------------------------------------------------");
 
 /*  undefine, NaN, null
         - undefine: default value of uninitialzed
