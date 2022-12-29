@@ -1,0 +1,41 @@
+### RegEx
+
+    //     -> write into this qutation
+
+
+# flag
+    //g     -> global flag
+    //gi     -> global flag, case intensive(take all value)
+
+
+# or
+    /(forhad|fahad)/gi    -> both name search
+
+    /(forhad|fahad) haque/gi    -> both name search - then space  - then haque
+
+
+# specific syntex select
+
+    /\w/gi      -> all words
+    /\W/gi      -> avoid all words 
+
+    /\d/gi      -> all digits
+    /\D/gi      -> avoid all digits
+
+    /\s/gi      -> all space, white space
+    /\S/gi      -> avoid all space, white space
+
+    /\t/gi      -> all tab
+
+    /\n/gi      -> new line
+
+    /./gi       -> any character without new line
+
+
+# select words or range
+
+    /[abc]/gi	    -> any of a, b, or c
+    /[^abc]/gi	    -> not a, b, or c
+    /[a-z]/gi	    -> character between a & z
+
+    /[a-eA-E]/g       -> abcdeABCED if any letter found in any words

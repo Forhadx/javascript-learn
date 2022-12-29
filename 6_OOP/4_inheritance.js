@@ -16,6 +16,11 @@ class Worker extends Person {
     this.profession = _profession;
   }
 
+  personShow() {
+    super.personShow();
+    console.log("hihihihi");
+  }
+
   workerShow() {
     console.log(
       `Workder: ${this.name} is ${this.age} year old and a ${this.profession}`

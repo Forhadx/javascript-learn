@@ -1,0 +1,55 @@
+# Engine
+
+    js-code:-
+            -> parser 
+            -> AST 
+            -> Interpreter(byte code) 
+            -> profiler 
+            -> Compiler 
+            -> Optimized code
+
+    
+    how to code execute:  https://astexplorer.net/
+
+    # ECMAScript
+        - An ECMAScript engine is a program that executes source code written in a version of the ECMAScript language standard
+
+        - this is a standard manual to followed by writers who write js engine.
+    
+    # Interpreter:
+        - Interpreter translates just one statement of the program at a time into machine code.
+        
+        - js code -> v8 byecode -> machine code
+        - convert into machine code line by line
+    
+    # Compiler
+        - Compiler scans the entire program and translates the whole of it into machine code at once.
+
+        - Compiler translate entire code in another language then convert in machine code.
+
+    # JIT: just in time Compiler
+        - combine Interpreter and Compiler. so make engine faster 
+
+    
+### Call stack & Memory heap
+
+    Call stack - store all functions
+        show(){...}
+
+    Memory heap - store all variable data   
+         const a = 23;
+
+## Memory leak
+    some reason to leak 
+        - too much global variables  
+            var a = 1;
+            var b = 2;
+            ...
+        
+        - too much event listeners use in single page
+             var el = documents.getElementsById('button')   
+
+            
+        - setInterval(()=>{
+            object
+        })

@@ -70,6 +70,7 @@ console.log("--------------------------------------------------------------");
         
         - objects:      {name: 'jack', age: 39}
         - array:        [1, 3, 4]
+        - undefine 
 
 
 
@@ -123,12 +124,13 @@ console.log(parseFloat(s)); // 23.54 float
 
 console.log(+s); // num: 12.32   , unary operator
 
+
 console.log("--------------------------------------------------------------");
 
 /*  undefine, NaN, null
         - undefine: default value of uninitialzed
         - NaN: calculation error
-        - null: never assube by default
+        - null: never assume by default
 
 */
 
